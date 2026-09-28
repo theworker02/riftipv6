@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/riftipv6",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Rift digests and ipv6 fingerprints for local integrity checks.",
+  "bin": {
+    "riftipv6": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/riftipv6.git"
+  },
+  "homepage": "https://theworker02.github.io/riftipv6/",
+  "keywords": [
+    "rift",
+    "ipv6",
+    "hash",
+    "cli",
+    "toolkit"
+  ]
+}
